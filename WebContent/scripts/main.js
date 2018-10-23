@@ -585,4 +585,12 @@
 
   init();
 
+  $('#about-us').click(function(){
+	  alert("This is a personal application.");
+  });
+  
+  $('#contact-us').click(function(){
+	  alert("Contact me at chenliangxs@gmail.com");
+  });
+  
 })();

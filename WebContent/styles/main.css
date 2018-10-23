@@ -82,7 +82,7 @@ ul {
 .container>header {
 	align-items: center;
 	background:
-		url('http://folkartcarsi.com/img/4.jpg')
+		url('../img/header.jpg')
 		no-repeat 50% 50%;
 	background-size: 100%;
 	display: flex;
@@ -94,12 +94,9 @@ ul {
 	font-weight: 400;
 	font-size: 2em;
 	line-height: 1em;
-	margin-left: 220px;
+	margin-left: 100px;
 	padding-left: 5px;
-}
-
-.container>header span {
-	color: #FBAF41;
+	color: red;
 }
 
 /**
@@ -308,6 +305,10 @@ ul {
 
 .fav-link:hover {
 	color: #F13F3F;
+}
+
+#private-btn{
+	display:none;
 }
 
 /**

@@ -8,14 +8,15 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/main.css">
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
 </head>
 <body>
   <header class="top-header">
     <nav class="top-nav">
       <a href="#">Home</a>
-      <a href="#">Contact</a>
-      <a href="#">About</a>
+      <a href="#" id="contact-us">Contact</a>
+      <a href="#" id="about-us">About</a>
     </nav>
     <span id="welcome-msg"></span>
     <a id="logout-link" href="logout">Logout</a>
@@ -68,6 +69,9 @@
           </a>
           <a href="#" id="recommend-btn" class="main-nav-btn">
             <i class="fa fa-thumbs-up"></i> Recommendation
+          </a>
+          <a href="#" id="private-btn" class="main-nav-btn">
+            <i class="fa fa-hand-o-right"></i> Hostess's Menu
           </a>
         </nav>
       </aside>
